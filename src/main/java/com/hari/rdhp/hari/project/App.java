@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
  * Hello world!
  *
  */
-//@slf4j
+@slf4j
 public class App
 {
     public static void main( String[] args )
@@ -44,5 +44,4 @@ public class App
 		 eachEntity.setState("TamilNadu");
 		 return eachEntity;
     }
-
 }
