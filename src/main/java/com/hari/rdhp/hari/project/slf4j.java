@@ -12,5 +12,7 @@ import org.slf4j.LoggerFactory;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface slf4j {
 	Logger log = LoggerFactory.getLogger(App.class);
+	
+	String value() default "";
 
 }
